@@ -81,39 +81,39 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
     private QuestionBank generateQuestions() {
 
-        Question question1 = new Question("What is the name of the current french president?",
+        Question question1 = new Question("Quel est le nom de l'actuel président français?",
                 Arrays.asList("François Hollande", "Emmanuel Macron", "Jacques Chirac", "François Mitterand"),
                 1);
 
-        Question question2 = new Question("How many countries are there in the European Union?",
+        Question question2 = new Question("Combien de pays y a-t-il dans l'Union européenne?",
                 Arrays.asList("15", "24", "28", "32"),
                 2);
 
-        Question question3 = new Question("Who is the creator of the Android operating system?",
+        Question question3 = new Question("Qui est le créateur du système d'exploitation Android?",
                 Arrays.asList("Andy Rubin", "Steve Wozniak", "Jake Wharton", "Paul Smith"),
                 0);
 
-        Question question4 = new Question("When did the first man land on the moon?",
+        Question question4 = new Question("Quand le premier homme at-il atterri sur la lune?",
                 Arrays.asList("1958", "1962", "1967", "1969"),
                 3);
 
-        Question question5 = new Question("What is the capital of Romania?",
+        Question question5 = new Question("Quelle est la capitale de la Roumanie?",
                 Arrays.asList("Bucarest", "Warsaw", "Budapest", "Berlin"),
                 0);
 
-        Question question6 = new Question("Who did the Mona Lisa paint?",
+        Question question6 = new Question("Qui a peint la Joconde?",
                 Arrays.asList("Michelangelo", "Leonardo Da Vinci", "Raphael", "Carravagio"),
                 1);
 
-        Question question7 = new Question("In which city is the composer Frédéric Chopin buried?",
+        Question question7 = new Question("Dans quelle ville le compositeur Frédéric Chopin est-il enterré?",
                 Arrays.asList("Strasbourg", "Warsaw", "Paris", "Moscow"),
                 2);
 
-        Question question8 = new Question("What is the country top-level domain of Belgium?",
+        Question question8 = new Question("Quel est le domaine national de premier niveau de la Belgique?",
                 Arrays.asList(".bg", ".bm", ".bl", ".be"),
                 3);
 
-        Question question9 = new Question("What is the house number of The Simpsons?",
+        Question question9 = new Question("Quel est le numéro de maison des Simpsons?",
                 Arrays.asList("42", "101", "666", "742"),
                 3);
 

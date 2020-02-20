@@ -96,9 +96,9 @@ public class MainActivity extends AppCompatActivity {
         if (firstname != null) {
             int score = mPreferences.getInt(PREF_KEY_SCORE, 0);
 
-            String fulltext = "Welcome back, " + firstname
-                    + " !\nYour last score was " + score
-                    + ", will you do better this time ?";
+            String fulltext = "ReBonjour, " + capitalize(firstname)
+                    + " !\nVotre dernier score était " + score
+                    + ", ferez-vous mieux cette fois ?";
             mWelcomeText.setText(fulltext);
             mNameInput.setText(firstname);
             mNameInput.setSelection(firstname.length());
@@ -139,5 +139,14 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
 
         out.println("MainActivity::onDestroy()");
+    }
+
+    //TODO Methode pour mettre la 1ere Lettre d'un String en MAJ
+    public static String capitalize(String str) {
+        if(str == null || str.isEmpty()) {
+            return str;
+        }
+
+        return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
 }
